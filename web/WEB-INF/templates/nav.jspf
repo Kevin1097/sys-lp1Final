@@ -1,0 +1,30 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+ <div class="container">
+     <nav class="nvbar-fixed-top ">
+         <div class="container-fluid">
+            <ul>
+                    <li><a href="#" >INICIO</a></li>
+                    <li><a href="#" >QUIENES SOMOSs</a></li>
+                    <li><a href="#" >GALERIA</a></li>
+                    <li><a href="#" >PROYECTOS</a></li>
+                    <li><a href="#" >VIDEOS</a></li>
+                           
+
+                </ul>
+         <form action="" class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                </div>
+                                 <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button id="btnsesion" type="submit" class="btn btn-default" onclick="logueo()">Iniciar sesión</button>
+                                      
+                                    </div>
+                                </div>
+                            </form> 
+             </div>
+         
+        </nav>
+     
+ </div>
