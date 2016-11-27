@@ -11,17 +11,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <%@include file="WEB-INF/templates/head.jspf"%>
+        
     </head>
     <body>
-        <nav>
-        <%@include file="WEB-INF/templates/nav.jspf" %>
-        </nav>
-        <header>
+           
             <%@include file="WEB-INF/templates/header.jspf" %>
-        </header>
-        <section>
-            <%@include file="WEB-INF/templates/section.jspf" %>
-        </section>
+            <%-- <%@include file="WEB-INF/templates/cuerpo.jspf" %> --%>
+        <%@include file="WEB-INF/templates/footer.jspf" %>
         
     </body>
 </html>
